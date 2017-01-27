@@ -1,11 +1,12 @@
 import React from 'react'
+import { Nav, NavItem } from 'react-bootstrap'
 
 const NavBar = (props) => {
   return (
-    <div>
-      <h1>Hello, {props.name}</h1>
-      <p>You have {props.coffees} cups of coffee!</p>
-    </div>
+    <Nav bsStyle="tabs" activeKey="1">
+      <NavItem eventKey="1" href="/home">Dashboard</NavItem>
+      <NavItem eventKey="2" title="Item">Create Tweet</NavItem>
+    </Nav>
   )
 }
 
