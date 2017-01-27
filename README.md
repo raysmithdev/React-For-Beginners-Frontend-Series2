@@ -15,6 +15,11 @@ Checkout the #react & #open-sessions channel on the slack channel. Also checkout
 - Introduce 'STATE' & 'PROPS' in React
 - Setup react-bootstrap for the UI.
 
+## Part 2
+- Introduce React Router [https://github.com/ReactTraining/react-router]
+- Finish our UI
+- Add a tweet functionality
+
 # Contributing
 - fork this repo
 - clone to your computer
